@@ -1,0 +1,96 @@
+{
+  "uid" : "db867a409647cde9",
+  "name" : "Given I am on the ANZ Mortage Calculator page",
+  "fullName" : "ANZ Loan Calculator Page: Verify error message incase of entering living expense as $1 and all other value as 0.Given I am on the ANZ Mortage Calculator page",
+  "historyId" : "8722a5bf7c30b77931cf355087fc9ebf",
+  "time" : {
+    "start" : 1654009442170,
+    "stop" : 1654009444821,
+    "duration" : 2651
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1654009442171,
+        "stop" : 1654009444821,
+        "duration" : 2650
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c2f83b5960e68f62",
+        "name" : "Request",
+        "source" : "c2f83b5960e68f62.json",
+        "type" : "application/json",
+        "size" : 88
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "ANZ Loan Calculator Feature"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "ANZ Loan Calculator Page: Verify error message incase of entering living expense as $1 and all other value as 0"
+  }, {
+    "name" : "testClass",
+    "value" : "ANZ Loan Calculator Page: Verify error message incase of entering living expense as $1 and all other value as 0"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I am on the ANZ Mortage Calculator page"
+  }, {
+    "name" : "package",
+    "value" : "ANZ Loan Calculator Page: Verify error message incase of entering living expense as $1 and all other value as 0"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.67"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "db867a409647cde9.json",
+  "parameterValues" : [ "chrome-101.0.4951.67" ]
+}

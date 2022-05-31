@@ -1,0 +1,26 @@
+{
+  "total" : 2,
+  "items" : [ {
+    "uid" : "103944b0d2da2399284af6b003cd5858",
+    "name" : "ANZ Loan Calculator Page: Verify correct borrow amount is shown",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 13,
+      "unknown" : 0,
+      "total" : 13
+    }
+  }, {
+    "uid" : "408c6c2d9e056dc5f8d73e34e99cd115",
+    "name" : "ANZ Loan Calculator Page: Verify error message incase of entering living expense as $1 and all other value as 0",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  } ]
+}

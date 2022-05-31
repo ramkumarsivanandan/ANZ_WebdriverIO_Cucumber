@@ -1,0 +1,135 @@
+{
+  "uid" : "cae9df844e3625df",
+  "name" : "Then I total credit limit as 10000",
+  "fullName" : "ANZ Loan Calculator Page: Verify correct borrow amount is shown.Then I total credit limit as 10000",
+  "historyId" : "93f73eea63e021a58a92d98d073260c4",
+  "time" : {
+    "start" : 1654009430362,
+    "stop" : 1654009431545,
+    "duration" : 1183
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1654009430362,
+        "stop" : 1654009430379,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5aa4f2c91dd24639",
+        "name" : "Request",
+        "source" : "5aa4f2c91dd24639.json",
+        "type" : "application/json",
+        "size" : 73
+      }, {
+        "uid" : "b8a963c9516d0c47",
+        "name" : "Response",
+        "source" : "b8a963c9516d0c47.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/d872a6ad-44a0-4d28-b8e9-bb62b177c5f8/clear",
+      "time" : {
+        "start" : 1654009430381,
+        "stop" : 1654009430433,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/d872a6ad-44a0-4d28-b8e9-bb62b177c5f8/value",
+      "time" : {
+        "start" : 1654009430434,
+        "stop" : 1654009430544,
+        "duration" : 110
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ac859e033d40deff",
+        "name" : "Request",
+        "source" : "ac859e033d40deff.json",
+        "type" : "application/json",
+        "size" : 21
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "ANZ Loan Calculator Page: Verify correct borrow amount is shown"
+  }, {
+    "name" : "testClass",
+    "value" : "ANZ Loan Calculator Page: Verify correct borrow amount is shown"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I total credit limit as 10000"
+  }, {
+    "name" : "package",
+    "value" : "ANZ Loan Calculator Page: Verify correct borrow amount is shown"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.67"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cae9df844e3625df.json",
+  "parameterValues" : [ "chrome-101.0.4951.67" ]
+}

@@ -1,0 +1,114 @@
+{
+  "uid" : "ce7f638e2acacaef",
+  "name" : "When I click on Work out how much I could borrow button",
+  "fullName" : "ANZ Loan Calculator Page: Verify error message incase of entering living expense as $1 and all other value as 0.When I click on Work out how much I could borrow button",
+  "historyId" : "2277f77020b1a38dc6770762f64a70f7",
+  "time" : {
+    "start" : 1654009446190,
+    "stop" : 1654009451412,
+    "duration" : 5222
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1654009446192,
+        "stop" : 1654009446220,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9338aebcab3a2215",
+        "name" : "Request",
+        "source" : "9338aebcab3a2215.json",
+        "type" : "application/json",
+        "size" : 76
+      }, {
+        "uid" : "7ecabda131b04403",
+        "name" : "Response",
+        "source" : "7ecabda131b04403.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/ee414ce8-b827-4aff-8732-21d64d2c9126/click",
+      "time" : {
+        "start" : 1654009446227,
+        "stop" : 1654009446403,
+        "duration" : 176
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "ANZ Loan Calculator Page: Verify error message incase of entering living expense as $1 and all other value as 0"
+  }, {
+    "name" : "testClass",
+    "value" : "ANZ Loan Calculator Page: Verify error message incase of entering living expense as $1 and all other value as 0"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I click on Work out how much I could borrow button"
+  }, {
+    "name" : "package",
+    "value" : "ANZ Loan Calculator Page: Verify error message incase of entering living expense as $1 and all other value as 0"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.67"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ce7f638e2acacaef.json",
+  "parameterValues" : [ "chrome-101.0.4951.67" ]
+}

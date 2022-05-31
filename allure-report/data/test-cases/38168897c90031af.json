@@ -1,0 +1,120 @@
+{
+  "uid" : "38168897c90031af",
+  "name" : "Then I verify if error message Based on the details you've entered, we're unable to give you an estimate of your borrowing power with this calculator. For questions, call us on 1800 035 500. is displayed",
+  "fullName" : "ANZ Loan Calculator Page: Verify error message incase of entering living expense as $1 and all other value as 0.Then I verify if error message Based on the details you've entered, we're unable to give you an estimate of your borrowing power with this calculator. For questions, call us on 1800 035 500. is displayed",
+  "historyId" : "56d66af3c40f738b292da470867b38ba",
+  "time" : {
+    "start" : 1654009451412,
+    "stop" : 1654009451502,
+    "duration" : 90
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1654009451414,
+        "stop" : 1654009451454,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b4fc6ed81bfc69de",
+        "name" : "Request",
+        "source" : "b4fc6ed81bfc69de.json",
+        "type" : "application/json",
+        "size" : 67
+      }, {
+        "uid" : "7db652369939c9f8",
+        "name" : "Response",
+        "source" : "7db652369939c9f8.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/cb6cea0d-7a15-4790-aa70-058866783f71/text",
+      "time" : {
+        "start" : 1654009451461,
+        "stop" : 1654009451501,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a7eb86681ea44fab",
+        "name" : "Response",
+        "source" : "a7eb86681ea44fab.json",
+        "type" : "application/json",
+        "size" : 161
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "ANZ Loan Calculator Page: Verify error message incase of entering living expense as $1 and all other value as 0"
+  }, {
+    "name" : "testClass",
+    "value" : "ANZ Loan Calculator Page: Verify error message incase of entering living expense as $1 and all other value as 0"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I verify if error message Based on the details you've entered, we're unable to give you an estimate of your borrowing power with this calculator. For questions, call us on 1800 035 500. is displayed"
+  }, {
+    "name" : "package",
+    "value" : "ANZ Loan Calculator Page: Verify error message incase of entering living expense as $1 and all other value as 0"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.67"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "38168897c90031af.json",
+  "parameterValues" : [ "chrome-101.0.4951.67" ]
+}

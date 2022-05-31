@@ -1,0 +1,135 @@
+{
+  "uid" : "26e3eda053bd60e9",
+  "name" : "When I enter the annual amount as 80000",
+  "fullName" : "ANZ Loan Calculator Page: Verify correct borrow amount is shown.When I enter the annual amount as 80000",
+  "historyId" : "8f8dec8de78faf392cb6bf05f3d9ac86",
+  "time" : {
+    "start" : 1654009424142,
+    "stop" : 1654009425429,
+    "duration" : 1287
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1654009424143,
+        "stop" : 1654009424171,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5fcdcd72c4fd256e",
+        "name" : "Request",
+        "source" : "5fcdcd72c4fd256e.json",
+        "type" : "application/json",
+        "size" : 73
+      }, {
+        "uid" : "aa05d0b6e3e6e351",
+        "name" : "Response",
+        "source" : "aa05d0b6e3e6e351.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/b237c801-ae6b-47f8-98b8-b373e93d44f6/clear",
+      "time" : {
+        "start" : 1654009424174,
+        "stop" : 1654009424231,
+        "duration" : 57
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/b237c801-ae6b-47f8-98b8-b373e93d44f6/value",
+      "time" : {
+        "start" : 1654009424239,
+        "stop" : 1654009424422,
+        "duration" : 183
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f602fe12f861af70",
+        "name" : "Request",
+        "source" : "f602fe12f861af70.json",
+        "type" : "application/json",
+        "size" : 21
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "ANZ Loan Calculator Page: Verify correct borrow amount is shown"
+  }, {
+    "name" : "testClass",
+    "value" : "ANZ Loan Calculator Page: Verify correct borrow amount is shown"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I enter the annual amount as 80000"
+  }, {
+    "name" : "package",
+    "value" : "ANZ Loan Calculator Page: Verify correct borrow amount is shown"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.67"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "26e3eda053bd60e9.json",
+  "parameterValues" : [ "chrome-101.0.4951.67" ]
+}

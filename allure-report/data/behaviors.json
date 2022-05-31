@@ -1,0 +1,332 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "ANZ Loan Calculator Feature",
+    "children" : [ {
+      "name" : "Given I am on the ANZ Mortage Calculator page",
+      "uid" : "6709941a4ebc488",
+      "parentUid" : "37a953dd42aa9cb5167972282a160909",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654009414095,
+        "stop" : 1654009424028,
+        "duration" : 9933
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.67" ]
+    }, {
+      "name" : "Given I am on the ANZ Mortage Calculator page",
+      "uid" : "db867a409647cde9",
+      "parentUid" : "37a953dd42aa9cb5167972282a160909",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654009442170,
+        "stop" : 1654009444821,
+        "duration" : 2651
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.67" ]
+    } ],
+    "uid" : "37a953dd42aa9cb5167972282a160909"
+  }, {
+    "name" : "Then I verify button calculator is visible",
+    "uid" : "88a16ba881e2438e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654009424028,
+      "stop" : 1654009424142,
+      "duration" : 114
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.67" ]
+  }, {
+    "name" : "When I enter the annual amount as 80000",
+    "uid" : "26e3eda053bd60e9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654009424142,
+      "stop" : 1654009425429,
+      "duration" : 1287
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.67" ]
+  }, {
+    "name" : "Then I enter the other income amount as 10000",
+    "uid" : "b80ca9b31121f26b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654009425430,
+      "stop" : 1654009426835,
+      "duration" : 1405
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.67" ]
+  }, {
+    "name" : "Then I enter the living expense as 500",
+    "uid" : "c50a7cbcb352fa8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654009426835,
+      "stop" : 1654009428038,
+      "duration" : 1203
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.67" ]
+  }, {
+    "name" : "Then I enter the current home loan repayment amount as 0",
+    "uid" : "97f5f1364556c0e7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654009428038,
+      "stop" : 1654009429173,
+      "duration" : 1135
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.67" ]
+  }, {
+    "name" : "Then I enter other loans amount as 100",
+    "uid" : "245c0a6f425daff5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654009429173,
+      "stop" : 1654009430362,
+      "duration" : 1189
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.67" ]
+  }, {
+    "name" : "Then I total credit limit as 10000",
+    "uid" : "cae9df844e3625df",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654009430362,
+      "stop" : 1654009431545,
+      "duration" : 1183
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.67" ]
+  }, {
+    "name" : "When I click on Work out how much I could borrow button",
+    "uid" : "65a23a4470dd4248",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654009431546,
+      "stop" : 1654009436664,
+      "duration" : 5118
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.67" ]
+  }, {
+    "name" : "Then I can see that total amount I can borrow is $528,000",
+    "uid" : "fdc7267bca77131f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654009436664,
+      "stop" : 1654009436758,
+      "duration" : 94
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.67" ]
+  }, {
+    "name" : "When I click on start over button",
+    "uid" : "e68c64befa30bac6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654009436758,
+      "stop" : 1654009442013,
+      "duration" : 5255
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.67" ]
+  }, {
+    "name" : "Then I can see that total amount I can borrow is $0",
+    "uid" : "68874177b58b8233",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654009442014,
+      "stop" : 1654009442104,
+      "duration" : 90
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.67" ]
+  }, {
+    "name" : "",
+    "uid" : "6c865a1b6a1aca5f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654009442104,
+      "stop" : 1654009442105,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.67" ]
+  }, {
+    "name" : "Then I verify button calculator is visible",
+    "uid" : "c8cf468a7f33792f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654009444822,
+      "stop" : 1654009444922,
+      "duration" : 100
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.67" ]
+  }, {
+    "name" : "Then I enter the living expense as 1",
+    "uid" : "be9bf618fd0cd59e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654009444922,
+      "stop" : 1654009446190,
+      "duration" : 1268
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.67" ]
+  }, {
+    "name" : "When I click on Work out how much I could borrow button",
+    "uid" : "ce7f638e2acacaef",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654009446190,
+      "stop" : 1654009451412,
+      "duration" : 5222
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.67" ]
+  }, {
+    "name" : "Then I verify if error message Based on the details you've entered, we're unable to give you an estimate of your borrowing power with this calculator. For questions, call us on 1800 035 500. is displayed",
+    "uid" : "38168897c90031af",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654009451412,
+      "stop" : 1654009451502,
+      "duration" : 90
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.67" ]
+  }, {
+    "name" : "",
+    "uid" : "e25d7e68b4270900",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654009451502,
+      "stop" : 1654009451503,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.67" ]
+  } ]
+}

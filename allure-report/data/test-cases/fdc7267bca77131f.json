@@ -1,0 +1,120 @@
+{
+  "uid" : "fdc7267bca77131f",
+  "name" : "Then I can see that total amount I can borrow is $528,000",
+  "fullName" : "ANZ Loan Calculator Page: Verify correct borrow amount is shown.Then I can see that total amount I can borrow is $528,000",
+  "historyId" : "4eb6f13e562231ecc3d7ea9d1337c8cd",
+  "time" : {
+    "start" : 1654009436664,
+    "stop" : 1654009436758,
+    "duration" : 94
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1654009436666,
+        "stop" : 1654009436707,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7d14240cc38e97c0",
+        "name" : "Request",
+        "source" : "7d14240cc38e97c0.json",
+        "type" : "application/json",
+        "size" : 77
+      }, {
+        "uid" : "d0e0cd891dd746f6",
+        "name" : "Response",
+        "source" : "d0e0cd891dd746f6.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/c802bab6-623b-4c6a-84f3-e50f0ea98863/text",
+      "time" : {
+        "start" : 1654009436713,
+        "stop" : 1654009436755,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d7906acdace5c05b",
+        "name" : "Response",
+        "source" : "d7906acdace5c05b.json",
+        "type" : "application/json",
+        "size" : 10
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "ANZ Loan Calculator Page: Verify correct borrow amount is shown"
+  }, {
+    "name" : "testClass",
+    "value" : "ANZ Loan Calculator Page: Verify correct borrow amount is shown"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I can see that total amount I can borrow is $528,000"
+  }, {
+    "name" : "package",
+    "value" : "ANZ Loan Calculator Page: Verify correct borrow amount is shown"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.67"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fdc7267bca77131f.json",
+  "parameterValues" : [ "chrome-101.0.4951.67" ]
+}

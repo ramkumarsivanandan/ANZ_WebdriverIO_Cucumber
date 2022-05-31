@@ -1,0 +1,126 @@
+{
+  "uid" : "88a16ba881e2438e",
+  "name" : "Then I verify button calculator is visible",
+  "fullName" : "ANZ Loan Calculator Page: Verify correct borrow amount is shown.Then I verify button calculator is visible",
+  "historyId" : "8bb46f4723817ec001692020bcf09447",
+  "time" : {
+    "start" : 1654009424028,
+    "stop" : 1654009424142,
+    "duration" : 114
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1654009424032,
+        "stop" : 1654009424068,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7a75f94dcd4f0a03",
+        "name" : "Request",
+        "source" : "7a75f94dcd4f0a03.json",
+        "type" : "application/json",
+        "size" : 76
+      }, {
+        "uid" : "d86817d191cfaf55",
+        "name" : "Response",
+        "source" : "d86817d191cfaf55.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1654009424094,
+        "stop" : 1654009424132,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e10ef80dba7c50ae",
+        "name" : "Request",
+        "source" : "e10ef80dba7c50ae.json",
+        "type" : "application/json",
+        "size" : 76
+      }, {
+        "uid" : "f16b7f258fce4ae4",
+        "name" : "Response",
+        "source" : "f16b7f258fce4ae4.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "ANZ Loan Calculator Page: Verify correct borrow amount is shown"
+  }, {
+    "name" : "testClass",
+    "value" : "ANZ Loan Calculator Page: Verify correct borrow amount is shown"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I verify button calculator is visible"
+  }, {
+    "name" : "package",
+    "value" : "ANZ Loan Calculator Page: Verify correct borrow amount is shown"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.67"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "88a16ba881e2438e.json",
+  "parameterValues" : [ "chrome-101.0.4951.67" ]
+}

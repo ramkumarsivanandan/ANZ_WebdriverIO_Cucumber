@@ -1,0 +1,191 @@
+[ {
+  "uid" : "e25d7e68b4270900",
+  "name" : "",
+  "time" : {
+    "start" : 1654009451502,
+    "stop" : 1654009451503,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "88a16ba881e2438e",
+  "name" : "Then I verify button calculator is visible",
+  "time" : {
+    "start" : 1654009424028,
+    "stop" : 1654009424142,
+    "duration" : 114
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fdc7267bca77131f",
+  "name" : "Then I can see that total amount I can borrow is $528,000",
+  "time" : {
+    "start" : 1654009436664,
+    "stop" : 1654009436758,
+    "duration" : 94
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "38168897c90031af",
+  "name" : "Then I verify if error message Based on the details you've entered, we're unable to give you an estimate of your borrowing power with this calculator. For questions, call us on 1800 035 500. is displayed",
+  "time" : {
+    "start" : 1654009451412,
+    "stop" : 1654009451502,
+    "duration" : 90
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b80ca9b31121f26b",
+  "name" : "Then I enter the other income amount as 10000",
+  "time" : {
+    "start" : 1654009425430,
+    "stop" : 1654009426835,
+    "duration" : 1405
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c865a1b6a1aca5f",
+  "name" : "",
+  "time" : {
+    "start" : 1654009442104,
+    "stop" : 1654009442105,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e68c64befa30bac6",
+  "name" : "When I click on start over button",
+  "time" : {
+    "start" : 1654009436758,
+    "stop" : 1654009442013,
+    "duration" : 5255
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6709941a4ebc488",
+  "name" : "Given I am on the ANZ Mortage Calculator page",
+  "time" : {
+    "start" : 1654009414095,
+    "stop" : 1654009424028,
+    "duration" : 9933
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "245c0a6f425daff5",
+  "name" : "Then I enter other loans amount as 100",
+  "time" : {
+    "start" : 1654009429173,
+    "stop" : 1654009430362,
+    "duration" : 1189
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be9bf618fd0cd59e",
+  "name" : "Then I enter the living expense as 1",
+  "time" : {
+    "start" : 1654009444922,
+    "stop" : 1654009446190,
+    "duration" : 1268
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cae9df844e3625df",
+  "name" : "Then I total credit limit as 10000",
+  "time" : {
+    "start" : 1654009430362,
+    "stop" : 1654009431545,
+    "duration" : 1183
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c8cf468a7f33792f",
+  "name" : "Then I verify button calculator is visible",
+  "time" : {
+    "start" : 1654009444822,
+    "stop" : 1654009444922,
+    "duration" : 100
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce7f638e2acacaef",
+  "name" : "When I click on Work out how much I could borrow button",
+  "time" : {
+    "start" : 1654009446190,
+    "stop" : 1654009451412,
+    "duration" : 5222
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "65a23a4470dd4248",
+  "name" : "When I click on Work out how much I could borrow button",
+  "time" : {
+    "start" : 1654009431546,
+    "stop" : 1654009436664,
+    "duration" : 5118
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "68874177b58b8233",
+  "name" : "Then I can see that total amount I can borrow is $0",
+  "time" : {
+    "start" : 1654009442014,
+    "stop" : 1654009442104,
+    "duration" : 90
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "26e3eda053bd60e9",
+  "name" : "When I enter the annual amount as 80000",
+  "time" : {
+    "start" : 1654009424142,
+    "stop" : 1654009425429,
+    "duration" : 1287
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c50a7cbcb352fa8",
+  "name" : "Then I enter the living expense as 500",
+  "time" : {
+    "start" : 1654009426835,
+    "stop" : 1654009428038,
+    "duration" : 1203
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "db867a409647cde9",
+  "name" : "Given I am on the ANZ Mortage Calculator page",
+  "time" : {
+    "start" : 1654009442170,
+    "stop" : 1654009444821,
+    "duration" : 2651
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97f5f1364556c0e7",
+  "name" : "Then I enter the current home loan repayment amount as 0",
+  "time" : {
+    "start" : 1654009428038,
+    "stop" : 1654009429173,
+    "duration" : 1135
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

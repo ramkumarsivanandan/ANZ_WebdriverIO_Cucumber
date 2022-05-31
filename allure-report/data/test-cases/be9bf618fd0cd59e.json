@@ -1,0 +1,135 @@
+{
+  "uid" : "be9bf618fd0cd59e",
+  "name" : "Then I enter the living expense as 1",
+  "fullName" : "ANZ Loan Calculator Page: Verify error message incase of entering living expense as $1 and all other value as 0.Then I enter the living expense as 1",
+  "historyId" : "8305ba60a96b9c578b996c7e1f770bcc",
+  "time" : {
+    "start" : 1654009444922,
+    "stop" : 1654009446190,
+    "duration" : 1268
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1654009444923,
+        "stop" : 1654009444959,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c738d490ccdf82f9",
+        "name" : "Request",
+        "source" : "c738d490ccdf82f9.json",
+        "type" : "application/json",
+        "size" : 73
+      }, {
+        "uid" : "35c678914c35c33f",
+        "name" : "Response",
+        "source" : "35c678914c35c33f.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/79ad49e5-392d-4eea-8c65-90caaf44f2e5/clear",
+      "time" : {
+        "start" : 1654009444967,
+        "stop" : 1654009445064,
+        "duration" : 97
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/79ad49e5-392d-4eea-8c65-90caaf44f2e5/value",
+      "time" : {
+        "start" : 1654009445065,
+        "stop" : 1654009445187,
+        "duration" : 122
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "76a7c42d126148e1",
+        "name" : "Request",
+        "source" : "76a7c42d126148e1.json",
+        "type" : "application/json",
+        "size" : 17
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "ANZ Loan Calculator Page: Verify error message incase of entering living expense as $1 and all other value as 0"
+  }, {
+    "name" : "testClass",
+    "value" : "ANZ Loan Calculator Page: Verify error message incase of entering living expense as $1 and all other value as 0"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I enter the living expense as 1"
+  }, {
+    "name" : "package",
+    "value" : "ANZ Loan Calculator Page: Verify error message incase of entering living expense as $1 and all other value as 0"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.67"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "be9bf618fd0cd59e.json",
+  "parameterValues" : [ "chrome-101.0.4951.67" ]
+}
